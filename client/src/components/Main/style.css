@@ -22,7 +22,7 @@
     border-radius: 50%;
 }
 
-.subsection {
+.options>div {
     display: flex;
     color: white;
     align-items: center;
@@ -33,14 +33,14 @@
     cursor: pointer;
 }
 
-.subsection:nth-child(1) {
+.blue {
     background: rgb(49, 49, 206);
-    border-radius: 75% 0 0 0;
+    border-radius: 10px;
 }
 
-.subsection:nth-child(2) {
+.red {
     background: rgb(218, 41, 41);
-    border-radius: 0 75% 0 0;
+    border-radius: 10px
 }
 
 .subsection:nth-child(3) {

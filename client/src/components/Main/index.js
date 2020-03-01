@@ -59,16 +59,16 @@ function Main() {
                     플래쉬카드
                 </div>
                 <div class="options">
-                    <div onClick={handleClick}>
+                    <div class="blue" onClick={handleClick}>
                         Lists
                     </div>
-                    <div onClick={handleClick}>
+                    <div class="red" onClick={handleClick}>
                         Learn
                     </div>
-                    <div onClick={handleClick}>
+                    <div class="red" onClick={handleClick}>
                         Search
                     </div>
-                    <div onClick={handleClick}>
+                    <div class="blue" onClick={handleClick}>
                         Practice
                     </div>
                 </div>
